@@ -276,7 +276,7 @@ const getSwapFromLayout = layout => {
     MEDIA,
   } = LAYOUT;
 
-  let swap = false;
+  let swap = true;
   switch (layout) {
     case CONTENT:
       swap = false;
