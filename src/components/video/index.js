@@ -117,6 +117,7 @@ export default class Video extends PureComponent {
         aria-label={intl.formatMessage(intlMessages.aria)}
         className="video-wrapper"
         id={ID.VIDEO}
+        onContextMenu={(e)=> e.preventDefault()}
       >
         <div data-vjs-player>
           <video
